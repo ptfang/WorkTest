@@ -9,6 +9,7 @@ $(function() {
         switch (xhr.status) {
           case 200:
             alert(xhr.responseText);
+            alert("nothing");
         }
       }
     });
