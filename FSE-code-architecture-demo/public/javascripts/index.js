@@ -8,7 +8,7 @@ $(function() {
       complete: function (xhr) {
         switch (xhr.status) {
           case 200:
-            alert(xhr.responseText);;
+            alert("no here");;
             alert("nothing");
         }
       }
